@@ -1,4 +1,5 @@
 \documentclass[a4paper,12pt]{article}
+\usepackage{amsfonts}
 \begin{document}
 
 \title{The Art of Mathematical Proof}
@@ -13,7 +14,7 @@ What is a math proof? That is after all why you are reading this article. Well I
 	\item The sum of an even and an odd integer is odd.
 \end{itemize}
 
-You know these statements to be true, but how do you know they are true? Maybe you quickly added some numbers in your head to confirm that each statement is true for every example you ran through. That may be good enough to have satiated any doubt you may have had, but it doesn't answer the more important question - why are these statements true? All of mathematical theory is focused around answering the question of why something is true; and the tool used is the mathematical proof. 
+You know these statements to be true, but how do you know they are true? Maybe you quickly added some numbers in your head to confirm that each statement is true for every example you ran through. That may be good enough to have satiated any doubt you had, but it doesn't answer the more important question - why are these statements true? All of mathematical theory is focused around answering the question of why something is true; and the tool used is the mathematical proof. 
 
 You should now have some understanding of what a mathematical proof is - it's the tool used to answer the question of why something is true; put bluntly, a mathematical proof is the proof (pun intended) that a statement is true. Okay great, so what exactly does a math proof look like? From a high-level, a math proof is a well-structured, logical argument showing that a statement is true. How does it do this? A proof starts with the facts at hand "I have two even integers, therefore I can represent the first number as  $2*j$ and the second as $2*k$, where $j$ and $k$ are integers because even numbers are defined to be $2$ times some integer.", then deduces what must be true given those facts,"Therefor, I can represent their sum as $(2*j + 2*k)$". With the new information, more facts can then be uncovered "We can then factor out the $2$ from this representation:  $(2*j + 2*k) = 2*(j + k)$. The number $(j + k)$ must be an integer because the sum of two integers is an integer." This process continues on until the truth of the statement is uncovered, "I've shown that the sum of the two even numbers is equal to $2$ times the integer $(j + k)$, which means that this number is even by definition.". 
 
@@ -24,6 +25,11 @@ Okay, that's great Will, can you now tell me exactly what a proof is, and how I 
 \section{The Fundamentals}
 In mathematics, definitions are the building blocks of all theory. A definition unambiguously and efficiently describes an 'object'. From the definition springs all math theory - first, the properties that are inherent to the definition of the object are proved. From there, more complex facts are uncovered, and then more, and more, and more (you get where I'm going). Each new fact uses the previous facts and definitions to show that it too must also be true. This process of building up facts endows mathematics with enormous accountability. By the very nature of our exploration, we can always be confident that the facts we discover are in fact true, no matter how far-fetched or complicated they appear. 
 
-  
+Let's start with one of the most simple definitions, we'll define the set of integers $\mathbb{Z}$ to be the counting numbers $1, 2, 3, ...$ along with $0$, and the negative numbers $-1, -2, ...$. We can represent the integers in set notation: \\
+\\
+\centerline{$\mathbb{Z} = \{ ..., -3, -2, -1, 0, 1, 2, 3, ... \}$}. \\
+\\
+The attentive reader may have noticed that in the introduction proof, I justified that the sum of $j$ and $k$ was an integer because both $j$ and $k$ are integers. We'll accept this statement as fact without proving it to be true. Although simply accepting something as fact goes against the very foundation that theoretical mathematics is built on, there are times when we cannot escape having to do so. When we accept a statement as fact without proving it, we call it an axiom. In general, an axiom does not need to be proven; instead, the truth of an axiom is self-evident (think of an axiom like existence - you know you exist, but it's very difficult to quantify a justification for that belief). 
+
 
 \end{document}

@@ -29,7 +29,7 @@ Let's start with one of the most simple definitions - the set of integers. We'll
 \\
 \centerline{$\mathbb{Z} = \{ ..., {-3}, {-2}, {-1}, 0, 1, 2, 3, ... \}$}. \\
 \\
-and we'll define an integer to be any number this is an element within the set of integers.
+and we'll define an integer to be any number within the set of integers.
 
 The attentive reader may have noticed that in the introduction proof, I justified that the sum of $j$ and $k$ was an integer because both $j$ and $k$ are integers. We'll accept this statement as fact without proving it to be true. Although simply accepting something as fact goes against the very foundation that theoretical mathematics is built on, there are times when we cannot escape having to do so. When we accept a statement as fact without proving it, we call it an axiom. An axiom does not need to be proven; instead, the truth of an axiom is self-evident (think of an axiom like existence - you know you exist, but it's very difficult to quantify a justification for that belief). 
 
@@ -47,12 +47,16 @@ Now that we have our definition we can begin to tackle this proof. But to begin 
 \\
 Assume I have two even integers $n$ and $m$. \\
 \\
-Will, really? Yes, really! We need a description that fits any two even integers, and that certainly fits the description. If you're wondering how this statement could possibly be helpful just look back to your definition of an even integer. The statement above contains a bit more information than it lets on at first: \\
+Will, really? Yes, really! We need a description that fits any two even integers, and that certainly fits the description. If you're wondering how this statement could possibly be helpful just look back to your definition of an even integer, and you'll find that the statement above contains a bit more information than it lets on at first: \\
 \\
 Since $n$ is even, there exists some integer $j$ such that $n = 2*j$. \\
 Similarly, Since $m$ is also even, there exists some integer $k$ such that $m = 2*k$. \\
 \\
-The specific values of $j$ and $k$ aren't relevant, all that's important is that they exist, and that we can represent our even integers $n$ and $m$ using them. Let's circle back now to the real problem, how do we show that the sum of $n$ and $m$ is even as well. To do this, let's give the sum a name - let's call it $s$. More formally, let $s = n + m$. Once again, we do not care about the specific value of $s$, we only care that it is the sum of $n$ and $m$. Now that we have $s$, we must ask ourselves a very important question - what does it mean to show that $s$ is even. Once again, I refer you to the definition of what it means to be even - $s$ is even if there exists some integer $p$ such that $s = 2*p$. Let's take a recap of all the things we know:\\
+The specific values of $j$ and $k$ aren't relevant, all that's important is that they exist, and that we can represent our even integers $n$ and $m$ using them. Let's circle back now to the real problem, how do we show that the sum of $n$ and $m$ is even as well. To do this, let's give the sum a name - let's call it $s$. More formally:\\ 
+\\
+let $s = n + m$.\\
+\\
+Once again, we do not care about the specific value of $s$, we only care that it is the sum of $n$ and $m$. Now that we have $s$, we must ask ourselves a very important question - what does it mean to show that $s$ is even. Once again, I refer you to the definition of what it means to be even - $s$ is even if there exists some integer $p$ such that $s = 2*p$. Let's take a recap of all the things we know:\\
 \\
 - We have two even integers $n = 2*j$ and $m = 2*k$, for some integers $j$ and $k$.\\
 - We defined the sum of $n$ and $m$ as the integer $s = n + m$. \\
@@ -61,7 +65,7 @@ So what next? Well, let's try substituting $2*j$ for $n$ and $2*k$ for $m$ in ou
 \\
 $s = n + m = 2*j + m = 2*j + 2*k$.\\
 \\
-Why can we do this? Since $n$ is equal to $2*j$ we can use them interchangeably - they refer to the same exact value. You can think of $2*j$ as a nickname for $n$ - while they may look different, they actually refer to the same thing. Now we all should know what's coming next (after all, I told you only a few paragraphs ago), we are going to factor our the $2$:\\
+Why can we do this? Since $n$ is equal to $2*j$ we can use them interchangeably - they refer to the same exact value. You can think of $2*j$ as a nickname for $n$ - while they may look different, they actually refer to the same thing. Now we all should know what's coming next (after all, I told you only a few paragraphs ago), we are going to factor out the $2$:\\
 \\
 $s = 2*j + 2*k = 2*(j + k)$. \\
 \\

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  28 FEB 2019 13:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  28 FEB 2019 21:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -81,26 +81,106 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--33
 
  []
 
-[2] [3] (./art_of_math_proof.aux) ) 
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--77
+
+ []
+
+[3] [4] [5] (./art_of_math_proof.aux) ) 
 Here is how much of TeX's memory you used:
  340 strings out of 492649
  4235 string characters out of 6129622
- 64336 words of memory out of 5000000
+ 72336 words of memory out of 5000000
  4279 multiletter control sequences out of 15000+600000
  11789 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  22i,6n,25p,1249b,190s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pub
-lic/amsfonts/symbols/msbm10.pfb>
-Output written on art_of_math_proof.pdf (3 pages, 63388 bytes).
+</usr/local/texlive/2018/texmf-dist/font
+s/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
+/public/amsfonts/symbols/msbm10.pfb>
+Output written on art_of_math_proof.pdf (5 pages, 73572 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
+ 44 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

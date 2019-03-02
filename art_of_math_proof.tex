@@ -50,43 +50,56 @@ Let's take the time to examine this definition in some detail. There are several
 \section{The Sum of Two Even Integers is Even}
 Now that we have our definition of evenness, we can begin to tackle this proof. But to begin handling this proof, we first need to determine what exactly it means to show that the sum of two integers is indeed even. Not only that, our argument has to be structured in a way such that regardless of the two even integers chosen, we clearly demonstrate that their sum is even. Now if you're wondering how you could possibly show that it's true for every pair of even integers, or why the proof in the introduction does fulfill this requirement, don't worry - you are not alone! The solution to our problem is actually quite simple, all we have to do is look back to what an even integer is defined to be. If you're wondering how such an abstract definition can help us, again, don't worry, I'm about to explain. Our problem is that we need to show for any two even integers, their sum is even. Well to do that, we need two even integers (obviously!), but we don't want to pick two specific integers. Instead, we need a description of two even integers that could apply to any specific pair. Here we go...\\
 \\
-Assume I have two even integers $n$ and $m$. \\
+$\rightarrow$ Assume I have two even integers $n$ and $m$. \\
 \\
 Will, really? Yes, really! We need a description that fits any two even integers, and that description certainly does so. If you're wondering how this statement could possibly be helpful just look back to your definition of an even integer, and you'll find that the statement above contains a bit more information than it lets on at first: \\
 \\
-Since $n$ is even, there exists some integer $j$ such that $n = 2*j$. \\
+$\rightarrow$ Since $n$ is even, there exists some integer $j$ such that $n = 2*j$. \\
 \\
-Similarly, Since $m$ is also even, there exists some integer $k$ such that $m = 2*k$. \\
+$\rightarrow$ Similarly, since $m$ is also even, there exists some integer $k$ such that $m = 2*k$. \\
 \\
 The specific values of $j$ and $k$ aren't relevant, all that's important is that they exist, and that we can represent our even integers $n$ and $m$ using them. Let's circle back now to the real problem, how do we show that the sum of $n$ and $m$ is even as well. To do this, let's give the sum a name - let's call it $s$. More formally:\\ 
 \\
-let $s = n + m$.\\
+$\rightarrow$ let $s = n + m$.\\
 \\
 Once again, we do not care about the specific value of $s$, we only care that it is the sum of $n$ and $m$. Now that we have $s$, we must ask ourselves a very important question - what does it mean to show that $s$ is even. Once again, I refer you to the definition of what it means to be even - $s$ is even if there exists some integer $p$ such that $s = 2*p$. Let's take a recap of all the things we know:\\
 \\
-- We have two even integers $n = 2*j$ and $m = 2*k$, for some integers $j$ and $k$.\\
-- We defined the sum of $n$ and $m$ as the integer $s = n + m$. \\
+$\rightarrow$ We have two even integers $n = 2*j$ and $m = 2*k$, for some integers $j$ and $k$.\\
+\\
+$\rightarrow$ We defined the sum of $n$ and $m$ as the integer $s = n + m$. \\
 \\
 So what next? Well, let's try substituting $2*j$ for $n$ and $2*k$ for $m$ in our representation of $s$: \\
 \\
-$s = n + m = 2*j + m = 2*j + 2*k$.\\
+$\rightarrow$ $s = n + m = 2*j + m = 2*j + 2*k$.\\
 \\
 Why can we do this? Since $n$ is equal to $2*j$ we can use them interchangeably - they refer to the same exact value. You can think of $2*j$ as a nickname for $n$ - while they may look different, they actually refer to the same thing. Now we all should know what's coming next (after all, I told you only a few paragraphs ago), we are going to factor out the $2$:\\
 \\
-$s = 2*j + 2*k = 2*(j + k)$. \\
+$\rightarrow$ $s = 2*j + 2*k = 2*(j + k)$. \\
 \\
 It was no accident that I choose the sum of two integers is an integer as our example axiom; I needed it for what comes next:\\
 \\
-Since both $j$ and $k$ are integers, their sum $(j + k) = p$ is also an integer.\\
+$\rightarrow$ Since both $j$ and $k$ are integers, their sum $(j + k) = p$ is also an integer.\\
 \\
 What's the value of $p$? Once again, it's not important, all we need to know is that $p$ is an integer. Finally, we can put it all together by substituting $p$ for $j + k$:\\
 \\
-$s = 2*(j + k) = 2*p$.\\ 
+$\rightarrow$ $s = 2*(j + k) = 2*p$.\\ 
 \\
-Therefor, since $p$ is an integer, and $s$ is equal to $2*p$, $s$ is even by definition.\\ 
+$\rightarrow$ Therefor, since $p$ is an integer, and $s$ is equal to $2*p$, $s$ is even by definition.\\ 
 \\
-Furthermore, $s$ is not only even, it's also the sum of $n$ and $m$ - which were represented in such a way that our argument could apply to any pair of even integers, thus we have completed our proof! \\
+$\rightarrow$ Furthermore, $s$ is not only even, it's also the sum of $n$ and $m$ - which were represented in such a way that our argument could apply to any pair of even integers, thus we have completed our proof! \\
 \\
-And that's all there is to it - we've now proven our statement that the sum of two even integers is even. If you're still a little unsure why the above proves our statement, don't worry - they'll be a few more proofs before the end of this article. If you are uneasy, try re-reading the proof and writing out each step along the way. As you write down each step, ask yourself: why does this argument apply to any integer(s); why am I able to deduce this information from the previous step(s); why is this particular statement true; what am I accomplishing with this step? 
-
+And that's all there is to it - we've now proven our statement that the sum of two even integers is even. If you're still a little unsure why the above proves our statement, don't worry - they'll be a few more proofs before the end of this article. If you are uneasy, try re-reading the proof and writing out each step along the way. As you write down each step, ask yourself: why does this argument apply to any integer(s); why am I able to deduce this information from the previous step(s); why is this particular statement true; what am I accomplishing with this step? Looking over this condensed version of the proof may also help:\\
+\\
+Assume I have two even integers $n$ and $m$. \\
+Since $n$ is even, there exists some integer $j$ such that $n = 2*j$. \\
+Similarly, since $m$ is also even, there exists some integer $k$ such that $m = 2*k$. \\
+let $s = n + m$.\\
+Then, $s = n + m = 2*j + m = 2*j + 2*k$.\\
+Then, $s = 2*j + 2*k = 2*(j + k)$. \\
+\\
+Since both $j$ and $k$ are integers, their sum $(j + k) = p$ is also an integer.\\
+Thus, we can represent $s$ as $s = 2*(j + k) = 2*p$.\\ 
+\\
+Since $p$ is an integer, and $s$ is equal to $2*p$, $s$ is even by definition.\\ 
+Furthermore, $s$ is not only even, it's also the sum of $n$ and $m$ - thus we have completed our proof. \\
 \end{document}

@@ -1,30 +1,29 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  1 MAR 2019 08:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.3.2)  2 MAR 2019 10:02
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **art_of_math_proof.tex
 (./art_of_math_proof.tex
-LaTeX2e <2018-04-01> patch level 2
+LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size12.clo
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
-\c@part=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks14
 \symAMSa=\mathgroup4
@@ -49,148 +48,148 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Try loading font information for U+msa on input line 7.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 7.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 12.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 12.
  [1
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 28--33
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 30--35
 
  []
 
 
-Overfull \hbox (3.26385pt too wide) in paragraph at lines 28--33
+Overfull \hbox (3.26385pt too wide) in paragraph at lines 30--35
 []\OT1/cmr/m/n/12 . 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--33
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 30--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--45
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--81
+Underfull \hbox (badness 10000) in paragraph at lines 45--47
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 48--83
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--81
+Underfull \hbox (badness 10000) in paragraph at lines 48--83
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--81
+Underfull \hbox (badness 10000) in paragraph at lines 48--83
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--81
+Underfull \hbox (badness 10000) in paragraph at lines 48--83
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--81
+Underfull \hbox (badness 10000) in paragraph at lines 48--83
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--81
+Underfull \hbox (badness 10000) in paragraph at lines 48--83
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--81
+Underfull \hbox (badness 10000) in paragraph at lines 48--83
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--81
+Underfull \hbox (badness 10000) in paragraph at lines 48--83
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--81
+Underfull \hbox (badness 10000) in paragraph at lines 48--83
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--81
+Underfull \hbox (badness 10000) in paragraph at lines 48--83
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--81
+Underfull \hbox (badness 10000) in paragraph at lines 48--83
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--81
+Underfull \hbox (badness 10000) in paragraph at lines 48--83
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--81
+Underfull \hbox (badness 10000) in paragraph at lines 48--83
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--81
+Underfull \hbox (badness 10000) in paragraph at lines 48--83
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--81
+Underfull \hbox (badness 10000) in paragraph at lines 48--83
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--81
+Underfull \hbox (badness 10000) in paragraph at lines 48--83
 
  []
 
-[3] [4] [5] (./art_of_math_proof.aux) ) 
+[4] [5] (./art_of_math_proof.aux) ) 
 Here is how much of TeX's memory you used:
- 340 strings out of 492649
- 4235 string characters out of 6129622
- 72336 words of memory out of 5000000
- 4279 multiletter control sequences out of 15000+600000
- 11789 words of font info for 46 fonts, out of 8000000 for 9000
+ 343 strings out of 492982
+ 4204 string characters out of 6134897
+ 64883 words of memory out of 5000000
+ 3964 multiletter control sequences out of 15000+600000
+ 12136 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 22i,6n,25p,1249b,190s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/font
-s/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
-/public/amsfonts/symbols/msbm10.pfb>
-Output written on art_of_math_proof.pdf (5 pages, 73400 bytes).
+ 22i,6n,24p,1130b,190s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on art_of_math_proof.pdf (5 pages, 82197 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
- 30 compressed objects within 1 object stream
+ 48 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

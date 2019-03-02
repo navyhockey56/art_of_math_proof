@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.3.2)  2 MAR 2019 13:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.3.2)  2 MAR 2019 14:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -81,104 +81,119 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--35
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
+Underfull \hbox (badness 10000) in paragraph at lines 43--47
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--47
+Underfull \hbox (badness 10000) in paragraph at lines 43--47
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 50--85
+Underfull \hbox (badness 10000) in paragraph at lines 51--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--85
+Underfull \hbox (badness 10000) in paragraph at lines 51--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--85
+Underfull \hbox (badness 10000) in paragraph at lines 51--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--85
+Underfull \hbox (badness 10000) in paragraph at lines 51--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--85
+Underfull \hbox (badness 10000) in paragraph at lines 51--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--85
+Underfull \hbox (badness 10000) in paragraph at lines 51--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--85
+Underfull \hbox (badness 10000) in paragraph at lines 51--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--85
+Underfull \hbox (badness 10000) in paragraph at lines 51--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--85
+Underfull \hbox (badness 10000) in paragraph at lines 51--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--85
+Underfull \hbox (badness 10000) in paragraph at lines 51--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--85
+Underfull \hbox (badness 10000) in paragraph at lines 51--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--85
+Underfull \hbox (badness 10000) in paragraph at lines 51--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--85
+Underfull \hbox (badness 10000) in paragraph at lines 51--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--85
+Underfull \hbox (badness 10000) in paragraph at lines 51--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--85
+Underfull \hbox (badness 10000) in paragraph at lines 51--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--85
+Underfull \hbox (badness 10000) in paragraph at lines 51--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--91
 
  []
 
 [4] [5] [6] (./art_of_math_proof.aux) ) 
 Here is how much of TeX's memory you used:
- 343 strings out of 492982
- 4204 string characters out of 6134897
+ 344 strings out of 492982
+ 4219 string characters out of 6134897
  66883 words of memory out of 5000000
- 3964 multiletter control sequences out of 15000+600000
- 12136 words of font info for 47 fonts, out of 8000000 for 9000
+ 3965 multiletter control sequences out of 15000+600000
+ 12443 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 22i,6n,24p,2022b,190s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 22i,6n,24p,2019b,190s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
@@ -187,7 +202,7 @@ cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 
-Output written on art_of_math_proof.pdf (6 pages, 84417 bytes).
+Output written on art_of_math_proof.pdf (6 pages, 85848 bytes).
 PDF statistics:
  51 PDF objects out of 1000 (max. 8388607)
  35 compressed objects within 1 object stream

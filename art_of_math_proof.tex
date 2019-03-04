@@ -109,7 +109,7 @@ Furthermore, $s$ is not only even, it's also the sum of $n$ and $m$.\\
 Thus we have completed our proof. Q.E.D
 
 
-\section{Oddness}
+\section{The Oddities of Oddness}
 \textbf{Definition}\\
 An integer, $n$ is odd if $n = 2*j + 1$ for some integer $j$.\\
 \\
@@ -158,6 +158,47 @@ Thus, $n$ is odd in accordance with our first defintion!\\
 Q.E.D\\
 \\
 Now we've completed our proof, and by doing so, removed all doubt as to whether our two different defintions were actually defining the same thing. In fact, we could have chosen any odd integer to add to our $2*j$ term, and have accurately defined oddness (try proving it's the same if we had chosen $7$ instead). When a property of an object could be used to define that object, then that property is fundamental to the object. It is important to remember that a fundamental property does not need to be used to define an object; however, we do have the option to do so. As such, we will use our original defintion of oddness throughout the remainer of this article.   
+
+\section{Split Personality}
+Now that we have definitions for both even and odd integers, we are going to prove that an integer cannot be both even and odd. Yes, we all 'know' that this statement is true, but our stubborn mathematicians seem to doubt us without any proof (we're not always the easiest group to get along with). Unfortinately, they do have a point. The stubborn mathematician could argue that a number could be both even and odd. While they'd be incorrect, we would lack sufficient means to refute their claims. As such, unless we prove this obvious statement, it would be improper for us to claim its truth.
+
+Before we dive into our proof, let's first think about what we need to show in order to prove that an integer can't be both even and odd. To accomplish our goal, we are going to use a technique often termed \textit{contradiction}. In a contradictory proof, we endow an object with two or more conflicting properties. In the problem at hand, our object will be an integer, and the conflicting properties will be even and oddness. We then 'innocently' explore all the truths that lead from our object endowed with conflicting properties. However, our exploration won't actually be so innocent. We know that we our exploring the land of the impossible, a place outside of logic. As we stumble about this false reality we've created, we will surely encounter many strange things, things that defy logic. It is our task to choose one of these strange encounters to explore in detail. Why? Because we are searching for proof that the very thing in front of us can't possibly exist. We may know we've stepped outside of the realm of possibility; unfortinately, our stubborn mathematically-minded friends back at home aren't going to believe us without proof. So what exactly does proof you've stumbled into the realm of impossibility look like? It looks like an equation that when solved reveals that some integer, $n$, is equal to two different values at the same time; or a set that is somehow both empty and nonempty; or an integer $n$ that is both less than and greater than some integer other $m$. These are but a tiny few of all the absurdities we might run into while exploring false realities. Although few in number, our examples perfectly illustrate the type of information we are seeking; they are all a statement we know can't be true - they are all \textit{contradictions}. Once we've found our contradiction we can start to pull at the very fabric with which we've woven the impossible. How do we do this? We simply start working backwards from the contradiction until we've stepped back into reality. Once we've made it back to reality, we've identified the culprit of our journey - it's the statement the sent us into the realm of impossibility in the first place! With the knowledge of the culprit statement, and proof that it leads to a contradiction, we can now confidently assert that culprit statement must actually be false, for we now know that it can't possibly be true. 
+
+This is exactly how we are going to prove that an integer can't be both even and odd at the same time. We'll start with some integer; then we'll assume it's both even and odd. We'll stumble along until we find a \textit{contradiction}. Then we'll trace that contradictions origins back to our assumption that our integer was both even and odd. At that point, we will have shown that it's impossible for the integer to be both even and odd! Why? Because if it is both even and odd, then our very reality is falling apart in front of us! Without further ado, let us now prove this statement:\\
+\\
+\textbf{Proof}\\
+Let $n$ be any integer.\\
+Assume $n$ is both even and odd.\\
+\\
+Now that we've made our assumption that will fling us out of reality, it's time to start exploring:\\
+\\
+Then, there exists some integer $j$ such that $n = 2*j$ because $n$ is even.\\
+Similarly, there exists some integer $k$ such that $n = 2*k + 1$ because $n$ is also odd.\\
+\\
+Let's take a closer look at the \textit{integer} $j$...\\
+\\
+Since $n = 2*j$, we can apply divide both sides of this equation by $2$ in order to solve for $j$, which gives us, $j = \frac{n}{2}$.\\
+\\
+If you were wondering why we need to explore the realm of impossibility in order to find a contradiction, the answer should now be clear - our false reality appears to be real at first! So let's continue exploring, why don't we see what happens when we subsititue $2*k + 1$ for $n$ in our equation for $j$...\\
+\\
+Substituting give us, $j = \frac{n}{2} = \frac{2*k + 1}{2} = \frac{2*k}{2} + \frac{1}{2} = k + \frac{1}{2}$.\\
+\\ 
+Subtracting $k$ from both sides of this equation yeilds, $j - k = \frac{1}{2}$.\\
+But $j$ and $k$ are both integers, so there difference, $d = j - k$, is also an integer (you should prove this for yourself).\\
+\\ 
+Substituting once again gives us, $d = \frac{1}{2}$.\\
+\\
+Wait a minute, $d$ is an integer, and $\frac{1}{2}$ is not contained within the set of integers - this can't possibly be; this must be the contradiction we've been looking for!\\
+\\
+Now it's time to work backwards from our contradiction...\\
+\\
+How did we know $d$ was an integer? We used the fact that difference of two integers is also an integer; however, since you proved this for yourself (right?), the we can all agree that this statement comes from reality, so it could not be what lead us to our contradiction.\\ 
+\\
+Let's keep moving further back...\\
+\\
+How did we come to $d = \frac{1}{2}$? Well we were able to do so using simple algebra, and simple algebra also comes from reality, so that too is not the culprit. What came before our algebra? We substituted $2*k + 1$ for $n$ in our representation of $j$. Substitution also comes from reality, so the act of it is not the culprit. However, the \textit{reason} we could perform this substitution was! Why were we able to substitue $2*k + 1$ for $n$ in our representation of $j$? Because we had defined $n$ to be odd; and where did we get our equation for $j$? From the fact that $n$ is also even! If we had only assumed $n$ was one of even or odd, we would have never have been able to perfom our substitution; therefore, we'd never have been able to show that $\frac{1}{2}$ had someone managed to sneak it's way into the set of integers!\\
+\\
+Thus, we can conclude that it was incorrect of us to have assumed our integer $n$ both even and odd; and since we chose $n$ to be any integer, we now can confidently state that it's incorrect to assume any integer can be both even and odd! Q.E.D   
 
 
 \end{document}

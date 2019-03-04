@@ -88,13 +88,15 @@ $\rightarrow$ $s = 2*(j + k) = 2*p$.\\
 \\
 $\rightarrow$ Therefor, since $p$ is an integer, and $s$ is equal to $2*p$, $s$ is even by definition.\\ 
 \\
-$\rightarrow$ Furthermore, $s$ is not only even, it's also the sum of $n$ and $m$ - which were represented in such a way that our argument could apply to any pair of even integers, thus we have completed our proof! \\
+$\rightarrow$ Furthermore, $s$ is not only even, it's also the sum of $n$ and $m$ - which were represented in such a way that our argument could apply to any pair of even integers! \\
 \\
 And that's all there is to it - we've now proven our statement that the sum of two even integers is even. If you're still a little unsure why the above proves our statement, don't worry - they'll be a few more proofs before the end of this article. If you are uneasy, try re-reading the proof and writing out each step along the way. As you write down each step, ask yourself: why does this argument apply to any integer(s); why am I able to deduce this information from the previous step(s); why is this particular statement true; what am I accomplishing with this step? Looking over this condensed version of the proof may also help:\\
 \\
+\textbf{Proof}\\
 Assume I have two even integers $n$ and $m$. \\
 Since $n$ is even, there exists some integer $j$ such that $n = 2*j$. \\
 Similarly, since $m$ is also even, there exists some integer $k$ such that $m = 2*k$. \\
+\\
 let $s = n + m$.\\
 Then, $s = n + m = 2*j + m = 2*j + 2*k$.\\
 Then, $s = 2*j + 2*k = 2*(j + k)$. \\
@@ -103,5 +105,61 @@ Since both $j$ and $k$ are integers, their sum $(j + k) = p$ is also an integer.
 Thus, we can represent $s$ as $s = 2*(j + k) = 2*p$.\\ 
 \\
 Since $p$ is an integer, and $s$ is equal to $2*p$, $s$ is even by definition.\\ 
-Furthermore, $s$ is not only even, it's also the sum of $n$ and $m$ - thus we have completed our proof. \\
+Furthermore, $s$ is not only even, it's also the sum of $n$ and $m$.\\
+Thus we have completed our proof. Q.E.D
+
+
+\section{Oddness}
+\textbf{Definition}\\
+An integer, $n$ is odd if $n = 2*j + 1$ for some integer $j$.\\
+\\
+Look familiar? It shouldn't come as much surprise that the definition of oddness is incredibly similar to that of evenness; after all, there seems to be a natural duality between the two concepts.  
+
+Let's take a deeper look at this defintion. First, let's confirm that it makes sense with a few example: $3 = 2*1 + 1$, $5 = 2*2 + 1$, $-39 = 2*-40 + 1$. Great, everything seems to check out. Now let's dig a little deeper. What if I were instead define an odd integer as follows:\\
+\\
+\textbf{Definition}\\
+An integer, $n$, is odd if $n = 2*j + 3$ for some integer $j$.\\
+\\
+Despite this definition looking different from our original, it isn't actually any less correct. Again, let's look at our examples: $3 = 0*1 + 3$, $5 = 1*2 + 3$, $-39 = 2*-42 + 3$. Everything seems to work out fine once again. But how can this be; could we be overlooking something? We are not, and in order to make certain of this, we are going to prove that the two defintions actually define the same thing. In particular, we are going to prove that any integer written with our first defintion can be written in the form of our second defintion, and vice versa.\\
+\\
+\textbf{Proof}\\
+Assume I have an odd integer, $n$, defined by our first definition.\\
+Therefore, there exists an integer $j$ such that $n = 2*j + 1$.\\
+\\
+Now, we must show that there exists some integer, $k$, such that $n = 2*k + 3$. By doing this, we will have shown that for any integer defined using our first defintion, it also fits the description of our second defintion.\\
+\\
+Since $j$ is an integer, I can subtract $1$ from it, let's call this difference $k$. Formally, let $k = j - 1$.\\
+\\
+Now we will use basic algebraic manipulation to 'coax' the second defintion from our first.\\
+\\
+$n = 2*j + 1 = 2*(j + 0) + 1 = 2*(j + (-1 + 1)) + 1$\\
+\\
+The above may seem strange or unhelpful, but it is in fact the key to our proof. By expanding out multiplication by 2 to include $-1 + 1 = 0$, we haven't changed the meaning of our equation thanks to the laws of algebra. However, we have converted our equation to a more useful form as will be revealed in the next step:\\
+\\
+$n = 2*(j - 1) + 2*1 + 1 = 2*(j - 1) + 3$.\\
+\\
+Now we've got the $3$ we need for our second defintion. What's more, we can substitute $k$ for $j - 1$ since that's what we defined $k$ to be only a few lines earlier:\\
+\\
+Then, $n = 2*(j - 1) + 3 = 2*k + 3$.\\
+Therefore, $n$ is also odd in accordance with our second defintion!\\
+\\
+What exactly does this mean? We've now proved that if we start with our first defintion, then we meet the criteria of our second defintion. Does this mean we have shown that the two definition are actually the same? Not quite, we still need to show that if we start with the second defintion then we will meet the criteria for the first one. Why do we need to do this? To explain that, I'm going to talk about chocolate ice cream. If I am eating chocolate ice cream, then I am happy. However, that doesn't mean chocolate ice cream is happiness. Chocolate ice cream does not define happiness, it merely implies happiness. Why's that? Because you cannot make the argument that if I am happy, then I must be eating chocolate ice cream. After all, other things make me happy as well! For instance, my happiness may be the result of petting a puppy. However, if it was always the case that I was only happy if I were eating chocolate ice cream, then one could logically argue that happiness and chocolate ice cream are the same thing to me. This same principle can be applied to explain why we must prove that if we start with the second defintion of oddness, that then the first is met, despite our already having proved the inverse. Without any further delay, let us now prove this statement as well.\\
+\\
+Assume I have an odd integer, $m$, defined by our second defintion.\\
+Therefore, there exists an integer $p$ such that $m = 2*p + 3$.\\
+\\
+Similar to the first part of the proof, we must this time show that there exists some integer, $q$, such that $m = 2*q + 1$. Once again, we will use some clever algebra to show this to be the case.\\
+\\
+$m = 2*p + 3 = 2*(p + 1 - 1) + 3 = 2*(p + 1) - 2+1 + 3 = 2*(p - 1) + 1$.\\
+\\
+Hopefully you know what comes next:\\
+\\
+Let $q = p - 1$.\\
+Then, $n = 2*q + 1$.\\
+Thus, $n$ is odd in accordance with our first defintion!\\
+Q.E.D\\
+\\
+Now we've completed our proof, and by doing so, removed all doubt as to whether our two different defintions were actually defining the same thing. In fact, we could have chosen any odd integer to add to our $2*j$ term that would have accurately defined oddness (try proving it's the same if we had chosen $7$ instead). When a property of an object could be used to define that object, then that property is fundamental to the object. It is important to remember that a fundamental property does not need to be used to define an object; however, we do have the option to do so. As such, we will use our original defintion of oddness throughout the remainer of this article.   
+
+
 \end{document}

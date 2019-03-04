@@ -90,9 +90,12 @@ $\rightarrow$ Therefor, since $p$ is an integer, and $s$ is equal to $2*p$, $s$ 
 \\
 $\rightarrow$ Furthermore, $s$ is not only even, it's also the sum of $n$ and $m$ - which were represented in such a way that our argument could apply to any pair of even integers! \\
 \\
-And that's all there is to it - we've now proven our statement that the sum of two even integers is even. If you're still a little unsure why the above proves our statement, don't worry - they'll be a few more proofs before the end of this article. If you are uneasy, try re-reading the proof and writing out each step along the way. As you write down each step, ask yourself: why does this argument apply to any integer(s); why am I able to deduce this information from the previous step(s); why is this particular statement true; what am I accomplishing with this step? Looking over this condensed version of the proof may also help:\\
+And that's all there is to it - we've now proven our statement that the sum of two even integers is even. If you're still a little unsure why the above proves our statement, don't worry - they'll be a few more proofs before the end of this article. If you are uneasy, try re-reading the proof and writing out each step along the way. As you write down each step, ask yourself: why does this argument apply to any integer(s); why am I able to deduce this information from the previous step(s); why is this particular statement true; and what am I accomplishing with this step? You may even try thinking about the proof as if it were a court case, "The sum of two even integers has been accused of being even itself, and we have gathered here today to hear arguments assessing the validaty of this accussation". You may also find it helpful to read the following condensed version of the proof:\\
 \\
-\textbf{Proof}\\
+\textbf{Lemma}\\
+The sum of two even integers is also even.\\
+\\
+\textit{Proof}\\
 Assume I have two even integers $n$ and $m$. \\
 Since $n$ is even, there exists some integer $j$ such that $n = 2*j$. \\
 Similarly, since $m$ is also even, there exists some integer $k$ such that $m = 2*k$. \\
@@ -106,7 +109,8 @@ Thus, we can represent $s$ as $s = 2*(j + k) = 2*p$.\\
 \\
 Since $p$ is an integer, and $s$ is equal to $2*p$, $s$ is even by definition.\\ 
 Furthermore, $s$ is not only even, it's also the sum of $n$ and $m$.\\
-Thus we have completed our proof. Q.E.D
+Thus we have completed our proof.\\
+\textit{Q.E.D}
 
 
 \section{The Oddities of Oddness}
@@ -120,7 +124,10 @@ An integer, $n$, is odd if $n = 2*j + 3$ for some integer $j$.\\
 \\
 Despite this definition looking different from our original, it isn't actually any less correct. Again, let's look at our examples: $3 = 0*1 + 3$, $5 = 1*2 + 3$, $-39 = 2*-42 + 3$. Everything seems to work out fine once again. But how can this be; could we be overlooking something? We are not, and in order to make certain of this, we are going to prove that the two defintions actually define the same thing. In particular, we are going to prove that any integer written with our first defintion can be written in the form of our second defintion, and vice versa.\\
 \\
-\textbf{Proof}\\
+\textbf{Lemma}\\
+For any integer, $n$, there exists an integer, $j$, such that $n = 2*j + 1$ if and only if there also exists an integer, $k$, such that $n = 2*k + 3$.\\
+\\ 
+\textit{Proof}\\
 Assume I have an odd integer, $n$, defined by our first definition.\\
 Therefore, there exists an integer $j$ such that $n = 2*j + 1$.\\
 \\
@@ -155,7 +162,7 @@ Hopefully you know what comes next:\\
 Let $q = p - 1$.\\
 Then, $n = 2*q + 1$.\\
 Thus, $n$ is odd in accordance with our first defintion!\\
-Q.E.D\\
+\textit{Q.E.D}\\
 \\
 Now we've completed our proof, and by doing so, removed all doubt as to whether our two different defintions were actually defining the same thing. In fact, we could have chosen any odd integer to add to our $2*j$ term, and have accurately defined oddness (try proving it's the same if we had chosen $7$ instead). When a property of an object could be used to define that object, then that property is fundamental to the object. It is important to remember that a fundamental property does not need to be used to define an object; however, we do have the option to do so. As such, we will use our original defintion of oddness throughout the remainer of this article.   
 
@@ -166,7 +173,10 @@ Before we dive into our proof, let's first think about what we need to show in o
 
 This is exactly how we are going to prove that an integer can't be both even and odd at the same time. We'll start with some integer; then we'll assume it's both even and odd. We'll stumble along until we find a \textit{contradiction}. Then we'll trace that contradiction's origins back to our assumption that our integer was both even and odd. At that point, we will have shown that it's impossible for the integer to be both even and odd! Why? Because if it is both even and odd, then reality is falling apart in front of us! Without further ado, let us now prove this statement:\\
 \\
-\textbf{Proof}\\
+\textbf{Lemma}\\
+An integer cannot be both even and odd.\\
+\\
+\textit{Proof}\\
 Let $n$ be any integer.\\
 Assume $n$ is both even and odd.\\
 \\
@@ -198,7 +208,28 @@ Let's keep moving further back...\\
 \\
 How did we come to $d = \frac{1}{2}$? Well we were able to do so using simple algebra, and simple algebra also comes from reality, so that too is not the culprit. What came before our algebra? We substituted $2*k + 1$ for $n$ in our representation of $j$. Substitution also comes from reality, so the act of it is not the culprit. However, the \textit{reason} we could perform this substitution was! Why were we able to substitue $2*k + 1$ for $n$ in our representation of $j$? Because we had defined $n$ to be odd; and where did we get our equation for $j$? From the fact that $n$ is also even! If we had only assumed $n$ was one of even or odd, we would have never have been able to perfom our substitution; therefore, we'd never have been able to show that $\frac{1}{2}$ had somehow managed to sneak it's way into the set of integers!\\
 \\
-Thus, we can conclude that it was incorrect of us to have assumed our integer $n$ both even and odd; and since we chose $n$ to be any integer, we now can confidently state that it's incorrect to assume any integer can be both even and odd! Q.E.D   
+Thus, we can conclude that it was incorrect of us to have assumed our integer $n$ both even and odd; and since we chose $n$ to be any integer, we now can confidently state that it's incorrect to assume any integer can be both even and odd!\\
+\textit{Q.E.D}   
 
+\section{Tying Up Loose Ends}
+Now that we've got definitions for even and oddness, and we are confident that an integer can't both be even and odd, we can finally prove the other two statements from the introduction.\\
+\\
+\textbf{Lemma}\\  
+The sum of two odd integers is even.\\
+\\
+\textit{Proof}\\
+Assume $n$ and $m$ are odd integers.\\
+Then there exists integers $j$ and $k$ such that $n = 2*j + 1$ and $m = 2*k + 1$.\\
+\\
+Let $s = n + m$.\\
+Substituting, $s = n + m = 2*j + 1 + 2*k + 1 = 2*j + 2*k + 2$.\\
+\\
+We can now factor out the $2$, $s = 2*(j + k + 1)$.\\
+\\
+Let $p = j + k + 1$.\\
+We know that $p$ must be an integer because the sum of $j$ and $k$ is an integer, and $1$ plus that value is also an integer.\\
+\\
+Thus, $s = n + m = 2*(j + k + 1) = 2*p$, and is therefor even by definition.\\
+\textit{Q.E.D}
 
 \end{document}

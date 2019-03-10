@@ -31,9 +31,9 @@ Let's start with one of the most simple definitions - the set of integers. We'll
 \\
 \centerline{$\mathbb{Z} = \{ ..., {-3}, {-2}, {-1}, 0, 1, 2, 3, ... \}$}. \\
 \\
-and we'll define an integer to be any number within the set of integers.
+and we'll define an integer to be any number within the set of integers. We'll also endow the integers with the familiar operation of addition; which we will discuss in more detail in just a few sections.    
 
-The attentive reader may have noticed that in the introduction proof, I justified that the sum of $j$ and $k$ was an integer because both $j$ and $k$ are integers. We'll accept this statement as fact without proving it to be true. Although simply accepting something to be true seems perilous and illogical, there are times when we cannot escape having to do so. When we accept a statement as fact without proving it, we call it an axiom. An axiom does not need to be proven; instead, the truth of an axiom is self-evident (think of an axiom like existence - you know you exist, but it's very difficult to quantify a justification for that belief). As such, we never arbitrarily perscribe something axiomatic; rather, we only do so when it is necessary and appropriate.  
+The attentive reader may have noticed that in the introduction proof, I justified that the sum of $j$ and $k$ was an integer because both $j$ and $k$ are integers. We'll accept this statement as fact without proving it to be true. Although simply accepting something to be true seems perilous and illogical, there are times when we cannot escape having to do so. When we accept a statement as fact without proving it, we call it an axiom. An axiom does not need to be proven; instead, the truth of an axiom is self-evident (think of an axiom like existence - you know you exist, but it's very difficult to quantify a justification for that belief). As such, we never arbitrarily perscribe something axiomatic; rather, we only do so when it is necessary and appropriate.
 
 From our axioms and definitions we then derive lemmas and theorems. A lemma is simply a statement that has been proven to be true, such as: "The sum of two even integers is even." Theorems are no different than lemmas in their design; however, they're generally attributed to more important or complex statements. You can think of lemmas as the stepping stones to theorems - it is often the case a lemma is proven for the express purpose of being used within the proof of a theorem. 
 
@@ -49,8 +49,41 @@ Let's take the time to examine this definition in some detail. There are several
 
 If you're wondering if there's anything special about the letters $n$ and $j$ used within the definition - there's not. We must often speak abstactly in mathematics, so it helps to ascribe symbols to the objects which we are refering. The symbols we choose are arbitrary. For example, our defintion of evenness could have easily been stated using the letters $m$ and $z$, or greek characters $\alpha$ and $\omega$, or even the words $flamigo$ and $shrimp$. It is also important to note the we don't have to refer to every even integer as $n$ just because that was the symbol used within the definition. In fact, in most cases it would be impossible to do so. For instance, if I want to reference both $4$ and $6$ symbolically, then I couldn't possibly call them both $n$. Otherwise $4 = n = 6$, and that's just nonsense! Instead, we can choose new symbols whenever necessary, such as $\alpha = 4$ and $x = 6$. As long as we tell our audience what a new symbol refers to when we introduce it, we can confidently use it in place of its original reference.  
 
+\section{Algebasics}
+Although it is somewhat tedious to do so, we must engage in a quick overview of the laws of algebra before we can dive fully into our first proof. Keep in mind, these are the same rules that you've been familiar with since elementary school. They've merely been stated in a more rigorous fashion below.\\
+\\
+\textit{Associative Property}\\
+As we all know, the order that we add integers does not change the resulting sum. For example, $(3 + 5) + 9 = 8 + 9 = 17 = 3 + 14 = 3 + (5 + 9)$. Formally, for any integers $a$, $b$ and $c$, it is the case that $(a + b) + c = a + (b + c)$.\\
+\\
+\textit{Commutative Property}\\
+Simiraly, we can change the positions of the integers in our sum without changing the result. For example, $12 + 4 = 16 = 4 + 12$. Formally, for any integers $a$ and $b$, it holds that $a + b = b + a$.\\
+\\
+\textit{Identity}\\
+The integer $0$ is the identity under addition. It is called the identity because the sum of $0$ and any other integer is always the other integer. Formally, for any integer $a$, $a + 0 = a$.\\
+\\
+\textit{Inverses}\\
+For every integer, $a$, there exists another integer, $-a$, that is $a$'s additive inverse. $-a$ has the special property that $a + -a = 0$. For example, the additive inverse of $2$ is $-2$, the inverse of $-71$ is $71$, and the inverse of $0$ is $0$.\\ 
+\\
+\textit{Subtraction}\\
+Using the additive inverse, we'll define subtration of an integer, $a$, by an integer $b$, as the sum of $a$ with $b$'s inverse. As such, if $c$ is the difference of $a$ and $b$, then $c = a + -b$. For simplicity, we can write the difference as $c = a - b$.\\
+\\
+\textit{Multiplication}\\
+Just as we did with subtraction, we'll also define mutliplication in terms of addition. For any integer, $a$, the following three rules define multiplication:
+\begin{enumerate}
+\item For any positive integer $b$, the product of $a$ and $b$ is equal to $a$ added to itself $b$ times. As such, $a * b = a + a + ... + a =\sum_{n=1}^{b}a$. For example, $3 * 4 = 3 + 3 + 3 + 3 = 12$.
+\item For any negative integer $b$, the product of $a$ and $b$ is equal to the inverse of $a$ added to itself $b$ inverse times. As such, $a * b = -a + -a ... + -a = \sum_{n=1}^{-b}-a$. For example, $6 * -3 = -6 + -6 + -6 = -18$
+\item Lastly, the product of $a$ and $0$ is always $0$. As such, $a*0 = 0$.
+\end{enumerate}
+Just like addition, multiplication also respects associativity and commutativity.\\  
+\\
+\textit{Distributive Property}\\
+Lastly, the distributive property states that the product of an integer $a$ with the sum of the integers $b$ and $c$ is equal to the sum of the products of $a$ with $b$ and $a$ with $c$. In other words, $a*(b + c) = a*b + a*c$.\\ 
+\\
+Further on in this article, we will actually prove that the associative, communtative, and distributive properties of multiplication do hold. But for now, we shall accept them as psuedo-axiomatic to prevent ourselves from getting too lost in the details.
+
+
 \section{The Sum of Two Even Integers is Even}
-Now that we have our definition of evenness, we can begin to tackle this proof. But in order to begin, we first need to determine what exactly it means to show that the sum of two integers is indeed even. Not only that, our argument has to be structured in a way such that regardless of the two even integers chosen, we clearly demonstrate that their sum is even. Now if you're wondering how we can possibly show that it's true for every pair of even integers, or why the proof in the introduction does fulfill this requirement, don't worry - you are not alone! The solution to our problem is actually quite simple, all we have to do is look back to what an even integer is defined to be. If you're wondering how such an abstract definition can help us, again, don't worry, I'm about to explain. Our problem is that we need to show for any two even integers, their sum is even. Well to do that, we need two even integers (obviously!), but we don't want to pick two specific integers. Instead, we need a description of two even integers that could apply to any specific pair. Here we go...\\
+Now that we have our definition of evenness and the basic laws of algebra, we can begin to tackle this proof. But in order to begin, we first need to determine what exactly it means to show that the sum of two integers is indeed even. Not only that, our argument has to be structured in a way such that regardless of the two even integers chosen, we clearly demonstrate that their sum is even. Now if you're wondering how we can possibly show that it's true for every pair of even integers, or why the proof in the introduction does fulfill this requirement, don't worry - you are not alone! The solution to our problem is actually quite simple, all we have to do is look back to what an even integer is defined to be. If you're wondering how such an abstract definition can help us, again, don't worry, I'm about to explain. Our problem is that we need to show for any two even integers, their sum is even. Well to do that, we need two even integers (obviously!), but we don't want to pick two specific integers. Instead, we need a description of two even integers that could apply to any specific pair. Here we go...\\
 \\
 $\rightarrow$ Assume I have two even integers $n$ and $m$. \\
 \\
@@ -301,6 +334,18 @@ Let's be honest, no one wants to spend the time to write every proof in as much 
 \textbf{Example without symbol}: If $n$ and $m$ are odd then their sum is even.\\
 \\
 For the sake of clarity, I'll be conservative with my use of symbols throughout the remainder of this article. However, you should feel free to use them within your proofs as much or as little as you want - I think you'll find they save you a lot of time.
+
+\section{Logical Lessons (incomplete)}
+When we need to show that one statement implies another, we use an \textit{if-then} statement. The most common structure for an \textit{if-then} statement is quite obvious: "If \textit{Statement-A}, then \textit{Statement-B}." For example:
+\begin{itemize}
+\item If it is raining, then you will wear a hooded jacket.
+\item If $n$ is odd, then there exists an integer $k$ such that $n = 2*k + 3$.
+\item If $n$ and $m$ are integers, then there sum is an integer.
+\end{itemize} 
+The meaning of an \textit{if-then} statement follows intuition - whenever \textit{Statement-A} is true, then \textit{Statement-B} is also true. As such, an \textit{if-then} statement defines a consequential relationship between statements $A$ and $B$; explicity, $B$ is a consequence of $A$. 
+
+As we observed in \textsc{The Oddities of Oddness}, the \textit{if-then} statement does not always work in reverse - it is not necessarily the case that $A$ is also a consequence of $B$. However, we often encounter (and even seek out) statements that are consequential of one another. Statements involved in such a relationship hold a special interest to mathematicians because they are \textit{equivalent}. When two statements are equivalent, we can effectively substitue equivalent either statement for the other. But meer substitution does not do the concept of equivalency justice...
+
  
 \section{Oops!}
 This article isn't finished yet, but updates are pushed daily. Come back soon!
@@ -310,6 +355,7 @@ This article isn't finished yet, but updates are pushed daily. Come back soon!
 \item "What is Mathematics?" - Richard Courant \& Herbert Robbins
 \item "Linear Algebra and its Applications" - Davic C. Lay
 \item "A Book of Abstract Algebra" - Charles C. Pinter (advanced)
+\item "Abstract Algebra" - I.N. Herstein (advanced)
 \item More to come...
 \end{itemize}
 
